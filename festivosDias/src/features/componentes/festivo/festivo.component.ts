@@ -3,14 +3,14 @@ import { ReferenciasMaterialModule } from '../../../shared/modulos/referencias-m
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 @Component({
-  selector: 'app-seleccion',
+  selector: 'app-festivo',
   imports: [
     ReferenciasMaterialModule,
-    NgxDatatableModule,
+        NgxDatatableModule,
   ],
-  templateUrl: './seleccion.component.html',
-  styleUrl: './seleccion.component.css'
+  templateUrl: './festivo.component.html',
+  styleUrl: './festivo.component.css'
 })
-export class SeleccionComponent {
+export class FestivoComponent {
 
 }
