@@ -1,0 +1,11 @@
+mat-toolbar{
+    background-color: black;
+    color: white;
+}
+
+.centrar{
+    text-align: center; /* Centrar horizontalmente */
+    display: flex; /* Utilizamos flexbox para centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente con flexbox */
+    width: 100%;
+}
