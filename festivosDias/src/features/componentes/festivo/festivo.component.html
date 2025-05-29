@@ -1,1 +1,13 @@
-<p>festivo works!</p>
+<mat-toolbar>
+    <div class="barraTituloCRUD">
+        Festivos en Colombia
+    </div>
+</mat-toolbar>
+
+<div>
+    <ngx-datatable class="dark" [columns]="columnas" [rows]="festivo"
+    [headerHeight]="50" [footerHeight]="50" [limit]="10">
+        
+
+    </ngx-datatable>
+</div>
